@@ -1,0 +1,25 @@
+{
+	"Console log": {
+		"prefix": "cl",
+		"body": [
+			"console.log($1);",
+			"$0"
+		],
+		"description": "Log output to console"
+	},
+	"Console log string": {
+		"prefix": "cls",
+		"body": [
+			"console.log('${1:Info: }$2');\n$0"
+		],
+		"description": "Log output to console"
+	},
+	"Console log type": {
+		"prefix": "clt",
+		"body": [
+			"console.${1|log,error,warn,info|}($2);",
+			"$0"
+		],
+		"description": "Log output to console"
+	}
+}
