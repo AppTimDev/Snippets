@@ -14,3 +14,13 @@ or
 
 ---
 
+## Note:
+### Markdown Snippet Prefix Does Not Trigger Snippet in Vscode
+Add this code to the setting.json
+```json
+"[markdown]":  {
+    "editor.quickSuggestions": true
+  }
+```
+
+---
