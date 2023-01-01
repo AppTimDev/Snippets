@@ -1,0 +1,10 @@
+{
+	"new snippet": {
+		"prefix": "newsnip",
+		"body": [
+			"hello"
+		],
+		"description": "Template strings"
+	}
+	
+}

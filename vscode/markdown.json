@@ -2,11 +2,10 @@
 	"Code block": {
 		"prefix": "cb",
 		"body": [
-			"```${2:bat}",
+			"```${2:cmd}",
 			"$1",
 			"```",
-			"$0"
 		],
-		"description": "Log output to console"
+		"description": ""
 	}
 }

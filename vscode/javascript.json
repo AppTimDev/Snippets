@@ -21,5 +21,29 @@
 			"$0"
 		],
 		"description": "Log output to console"
+	},
+	"Console log template string": {
+		"prefix": "clts",
+		"body": [
+			"console.log(`${1:Info: } \\${$2\\}`);\n$0"
+		],
+		"description": "Template strings"
+	},
+
+	"arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"($1) => $2"
+		],
+		"description": ""
+	},
+	"arrow function with bracket": {
+		"prefix": "arrowbrac",
+		"body": [
+			"($1) => {",
+			"    $2",
+			"\\}$0"			
+		],
+		"description": ""
 	}
 }
