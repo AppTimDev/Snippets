@@ -13,4 +13,26 @@
 		],
 		"description": "Log output to console"
 	},
+	"try except block": {
+		"prefix": "trye",
+		"body": [
+			"try:",
+			"    $1",
+			"except Exception as e:",
+			"    ${2:pass}",
+		],
+		"description": "try except block"
+	},
+	"try except finally block": {
+		"prefix": "tryef",
+		"body": [
+			"try:",
+			"    $1",
+			"except Exception as e:",
+			"    ${2:pass}",
+			"finally:",
+			"    ${3}"
+		],
+		"description": "try except block"
+	},
 }

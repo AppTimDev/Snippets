@@ -45,5 +45,23 @@
 			"\\}$0"			
 		],
 		"description": ""
+	},
+	"for let": {
+		"prefix": "forl",
+		"body": [
+			"for (let i = 0; i < size; i++) {",
+			"    $1",
+			"}$0"			
+		],
+		"description": ""
+	},
+	"for const": {
+		"prefix": "forl",
+		"body": [
+			"for (const i = 0; i < size; i++) {",
+			"    $1",
+			"}$0"			
+		],
+		"description": ""
 	}
 }
